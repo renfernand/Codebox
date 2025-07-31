@@ -5,7 +5,9 @@ A CodeBox ou CodeRPIBox é uma jiga de teste multiprotocolo que utiliza o Softwa
 
 ![alt text](image.png)
 
-O módulo possui quatro botões de entrada digital, quatro leds de saída digital e uma saída relé do tipo triac (contato seco, podendo ligar carga AC somente até 220Vac, a lógica do relé é NF, ou seja, zero liga o relé e 1 desliga). O potenciômetro está ligado em um conversor AD (ADS1115) e se comunica via interface I2C.
-Para comunicar o CodeBox na rede, basta ligar um cabo de rede em uma rede DHCP ou configurar o IP localmente.
+The CodeBox or CodeRPIBox is a multiprotocol test kit that uses Codesys software embedded on a Raspberry Pi 3 Model B board. It can be used as a Modbus TCP slave, Ethernet/IP slave, Profinet IO slave, or OPC-UA master/slave. The figure below shows a screenshot of the CodeBox.
+To communicate the CodeBox on the network, simply connect a network cable to a DHCP network or configure the IP locally.
+
+In the folder, there is a pdf file that explain in details our implementation and how to use in the codesys.
 
 
